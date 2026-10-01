@@ -1,0 +1,12 @@
+.square:nth-of-type(even){
+    background-color: black;
+}
+
+.square:nth-of-type(odd){
+    background-color: red
+}
+
+/* Muda a cor quando passamos o rato por cima */
+/* .square:hover{
+    background-color: white;
+} */

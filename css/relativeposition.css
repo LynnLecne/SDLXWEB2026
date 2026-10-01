@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: red;
+  color: white;
+}
+
+#two {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: blue;
+}
+
+/* static, relative, absolute, fixed, sticky
+
+// fixed posicionado em relação à janela
+// absolute posicionado em relação ao anterior
+// static posição inicial do elemento, ignora atributos como top, left, etc.
+// sticky posição relativa até fazer scroll e depois fica fixa
+// relative posicionado após a sua própria posição 
