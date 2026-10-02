@@ -4,12 +4,70 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Homepage Projecto Web</title>
+    
+    <!-- SS do bootstrap -->
+      <link href="css/bootstrap.css"
+      rel="stylesheet"
+
+    />
     <link rel="shortcut icon" href="images/favicon.gif" type="image/x-icon" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <!-- Corpo da Página -->
   <body>
-    <!-- Menu de Navegação -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/movies.html" id="movies">Filmes</a>
+            </li>
+            <li class="nav-item">
+              <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Links Externos
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="https://www.cesaedigital.pt">CESAE</a></li>                
+              </ul>
+            </li>
+              <a class="nav-link" href="#calendar">Calendário</a>
+            </li>
+                        <li class="nav-item">
+              <a class="nav-link" href="pages/linkandimages.html">Lobos</a>
+            </li>
+                        <li class="nav-item">
+              <a class="nav-link" href="pages/table.html">Tabela</a>
+            </li>
+            
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+   
+   <!-- Menu de Navegação
     <nav>
       <a href="pages/movies.html#movies-reviews" id="movies">Filmes</a> |
       <a
@@ -23,12 +81,20 @@
       <a href="pages/linkandimages.html">Lobos</a> |
       <a href="pages/table.html">Tabela</a>
     </nav>
-    <!-- .Menu de Navegação -->
+    <-- .Menu de Navegação -->
+  
 
     <hr />
 
     <!-- Imagens -->
-    <img id="my-img" src="images/banner.png" alt="web" width="180px" height="150px" />
+     <div class="container">
+    <img
+      id="my-img"
+      src="images/banner.png"
+      alt="web"
+      width="180px"
+      height="150px"
+    />
 
     <!-- Formulários -->
     <section>
@@ -200,5 +266,12 @@
     <h5 id="calendar">Calendário Escolar</h5>
     <p>Férias de Natal: 16 de Dezembro</p>
     <a href="#movies">Voltar ao topo</a>
+    
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    </div>
   </body>
 </html>
